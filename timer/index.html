@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+    <section class="container">
+        <h1 id="localHora">Meu Timer</h1>
+        <p class="relogio">00:00:00</p>
+        <p>
+            <button class="iniciar">Iniciar</button>
+            <button class="pausar">Pausar</button>
+            <button class="zerar">Zerar</button>
+        </p>
+    </section>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
+
+
+<style>
+
+    body{
+        display: flex;
+        justify-content: center;
+        
+        background-color: aqua;
+    }
+    .container{
+        display: flex;
+        background-color: rgb(0, 78, 88);
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 40%;
+        width: 80%;
+        border: 1px solid black;
+    }
+
+    .container h1{
+        color: white;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    .container .relogio{
+        color: white;
+        font-size: xxx-large;
+    }
+</style>
