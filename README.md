@@ -1,0 +1,3 @@
+# Cronometro
+
+## Auto-explicativo
